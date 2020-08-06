@@ -1,50 +1,24 @@
-Q2. sublist(X,Y): true if list X is a sublist of list Y. A sublist is the original list, in the same order, but with no/some elements removed. 
-a) 
+Q1. sublist(X,Y): true if list X is a sublist of list Y. A sublist is the original list, in the same order, but with no/some elements removed. 
 
 * P is a prefix of list A when there is some list such that A is the result of concatenating P with that list.
 * append(P,_,A) will hold when the list A is the result of concatenating the lists P and _(anonymous variable) together.
 * list S is a suffix of list A if there is some list such that A is the result of concatenating that list with S.
 * Sub is a sublist of List if there is some suffix S of List of which Sub is a prefix.
 
-Example-1
-
-Example-2
-
-
-
-
 Q2. 
-b)
 * find(A,B) check if elements present in the list A are present in the list B.
 * has_triplicate(x) ): returns true if list X contains at least three copies of an element. It also prints the element which is triplicated using the write predicate.
 
-Example-1
-
-Example-2
-
-
-Q2.
-c)
+Q3
 * remove_nth has an arity 3.First argument is the position of the element to be removed.Y is the input list and Z is the list to be printed.
 * remove_nth uses recursion to remove the nth element. nth element can be removed by removing n-1 th element if exists from the list obtained by removing the first element.
 
-
-
-Example-1
-
-Example-2
-
-
-Q2.
+Q4
 d)
 * everyother prints a list Y which is the list X with every other element removed (the two lists should have the same first element).
 * Taking care of two base cases empty list outputs the empty list and if there is single element present,list with same element  is printed as output.
 * Basically everyother has to remove elements elements present at even positions as the above base cases have already been taken care of. So everyother outputs the list with first element added to list obtained by calling everyother to list with first two elements removed from th input list.
 
-
-Example -1
-
-Example -2
 
 
  
